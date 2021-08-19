@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <title>Menu</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&family=Teko&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>$(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 600, function(){
+                    window.location.hash = hash;
+                });
+                }
+            });
+        });
+        </script>
+        <meta name="description" content="Cocina americana...cocina argentina...lo que prefieras. Lo importante, es que siempre vas a querer repetir.">
+        <meta name="keywords"  content="BAR, LICORERIA, ALCOHOL, COCINA AMERICANA, WEDRINK, COCINA ARGENTINA">
+        
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row justify-content-between align-items-end" id="barraDeMenu">
+                  <img class="logo col-1.5" src="imagenes/LOGO.png" height="60px" width="140px">
+                  <div class="subtitulos col-2"><h1>Menu</h1></div>
+                  <nav class="navbar col-4 col-md-5 navbar-expand-md bg-dark navbar-dark">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="quienesSomos.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="catalogo.html">Catalogo</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+        </header>
+        <div id="menudecatalogo">
+            <ul>
+                <li><a href="#Entradas">Entradas</a></li>
+                <li><a href="#Hamburguesas">Hamburguesas</a></li>
+                <li><a href="#Pizzas">Pizzas</a></li>
+                <li><a href="#Empanadas">Empanadas</a></li>
+            </ul>
+        </div>
+        <section>
+            <section class="tablas">
+                <h3 id="Entradas" class="leyenda">Entradas</h3>
+                <table>
+                    <tr>
+                        <td><img src=imagenes/menu/entradas/bastones.jpg alt="bastones de muzzarella" height="100px" width="150px"></td>
+                        <td>Bastones de muzzarella (acompañados de 2 salsas a elección)</td>
+                        <td>$349,99</td>
+                    </tr>
+                    <tr>
+                        <td><img src=imagenes/menu/entradas/papas.jpg alt="papas" height="100px" width="150px"></td>
+                        <td>Papas WeDrink (opcional agregado de cheddar y panceta)</td>
+                        <td>$359,99</td>
+                    </tr>
+                    <tr>
+                        <td><img src=imagenes/menu/entradas/aros.jpg alt="aros de cebolla" height="100px" width="150px"></td>
+                        <td>Aros de cebolla</td>
+                        <td>$289,99</td>
+                    </tr>
+                    <tr>
+                        <td><img src=imagenes/menu/entradas/nuggets.jpg alt="nuggets de pollo" height="100px" width="150px"></td>
+                        <td>Nuggets de pollo (acompañados de 2 salsas a elección)</td>
+                        <td>$319,99</td>
+                    </tr>
+                </table>
+                <h3 id="Hamburguesas" class="leyenda">Hamburguesas</h3>
+                <table>
+                    <tr>
+                        <td><img src="imagenes/menu/hamburguesas/americana.jpeg" alt="americana" height="100px" width="150px"></td>
+                        <td>Americana (doble carne, panceta, cheddar, aros de cebolla y BBQ)</td>
+                        <td>$729,99</td>
+                    </tr>
+                    <tr>
+                        <td><img src=imagenes/menu/hamburguesas/hamburguesa-1.jpg alt="de la casa" height="100px" width="150px"></td>
+                        <td>De la casa (carne, queso fundido, panceta, lechuga, tomate y salsa de la casa)</td>
+                        <td>$759,99</td>
+                    </tr>
+                    <tr>
+                        <td><img src=imagenes/menu/hamburguesas/triple.jpeg alt="triple" height="130px" width="150px"></td>
+                        <td>Especial triple (triple carne, cheddar, panceta, alioli y cebolla crispy</td>
+                        <td>$759,99</td>
+                    </tr>
+                    <tr>
+                        <td><img src=imagenes/menu/hamburguesas/goliath.jpeg alt="goliath" height="100px" width="150px"></td>
+                        <td>Goliath (doble carne, doble cheddar, panceta, tomate, vacio desmenuzado, cebilla crispy y alioli)</td>
+                        <td>$759,99</td>
+                    </tr>
+                </table>
+                <h3 id="Pizzas" class="leyenda">Pizzas</h3>
+                <table>
+                    <tr>
+                        <td><img src=imagenes/menu/pizzas/muzzarella.jpg alt="muzzarella" height="100px" width="150px"></td>
+                        <td>Pizza de muzzarella</td>
+                        <td>$649,99</td>
+                    </tr>
+                    <tr>
+                        <td><img src=imagenes/menu/pizzas/cuatro-quesos.jpg alt="cuatro quesos" height="100px" width="150px"></td>
+                        <td>Pizza 4 quesos</td>
+                        <td>$729,99</td>
+                    </tr>
+                    <tr>
+                        <td><img src=imagenes/menu/pizzas/jamon-y-morron.jpg alt="jamon y morron" height="100px" width="150px"></td>
+                        <td>Pizza de jamon y morrones</td>
+                        <td>$729,99</td>
+                    </tr>
+                    <tr>
+                        <td><img src=imagenes/menu/pizzas/rucula-y-crudo.jpg alt="rucula y crudo" height="100px" width="150px"></td>
+                        <td>Pizza de rucula y crudo</td>
+                        <td>$729,99</td>
+                    </tr><tr>
+                        <td><img src=imagenes/menu/pizzas/pepperoni.jpeg alt="pepperoni" height="100px" width="150px"></td>
+                        <td>Pizza de pepperoni</td>
+                        <td>$729,99</td>
+                    </tr>
+                </table>
+                <h3 id="Empanadas" class="leyenda">Empanadas</h3>
+                <div class="container-fluid">
+                    <div class="row  justify-content-center">
+                        <table class="table-empanadas col-10 col-md-6">
+                            <tr>
+                                <td><img src=imagenes/menu/empanadas/carne.jpg alt="carne" height="120px" width="150px"></td>
+                                <td>Carne suave</td>
+                                <td>$89,99</td>
+                            </tr>
+                            <tr>
+                                <td><img src=imagenes/menu/empanadas/jamon-y-queso.jpg alt="jamon y queso" height="120px" width="150px"></td>
+                                <td>Jamon y queso</td>
+                                <td>$89,99</td>
+                            </tr>
+                            <tr>
+                                <td><img src=imagenes/menu/empanadas/provolone.jpg alt="provolone" height="120px" width="150px"></td>
+                                <td>Provolone</td>
+                                <td>$89,99</td>
+                            </tr>
+                            <tr>
+                                <td><img src=imagenes/menu/empanadas/pollo.jpg alt="pollo" height="120px" width="150px"></td>
+                                <td>Pollo</td>
+                                <td>$89,99</td>
+                            </tr>
+                            <tr>
+                                <td><img src=imagenes/menu/empanadas/queso-y-cebolla.jpg alt="cebolla y queso" height="120px" width="150px"></td>
+                                <td>Cebolla y queso</td>
+                                <td>$89,99</td>
+                            </tr>
+                            <tr>
+                                <td><img src=imagenes/menu/empanadas/roquefort.jpg alt="roquefort" height="120px" width="150px"></td>
+                                <td>Roquefort</td>
+                                <td>$89,99</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </body>
+</html>

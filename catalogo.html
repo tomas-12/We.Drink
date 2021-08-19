@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catalogo</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&family=Teko&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>$(document).ready(function(){
+        $("a").on('click', function(event) {
+            if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 600, function(){
+                window.location.hash = hash;
+            });
+            }
+        });
+    });
+        </script>
+        <meta name="description" content="Nuestro selecto catálogo online de bebidas alcohólicas te va a dar un adelanto de nuestra vasta variedad de productos">
+        <meta name="keywords"  content="BAR, LICORERIA, ALCOHOL, COCINA AMERICANA, WEDRINK, CATALOGO, BEBIDAS, CERVEZAS, VINOS">
+        
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row justify-content-between align-items-end" id="barraDeMenu">
+                  <img class="logo col-1.5" src="imagenes/LOGO.png" height="60px" width="140px">
+                  <div class="subtitulos col-2"><h1>Catalogo</h1></div>
+                  <nav class="navbar col-4 col-md-5 navbar-expand-md bg-dark navbar-dark">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="quienesSomos.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+        </header>
+        <div class="container-fluid">
+                <div class="descripcionCatalogo row">
+                    <p class="col-12 col-md-9"><a>Bienvenidos a nuestro catalogo! Aqui vas a encontrar nuestros productos mas populares. Revisa las diferentes secciones para conocer nuestras principales opciones. No encontras algun producto?</a> <a href="contacto.html">Contactate con nosotros y consultanos</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="menudecatalogo">
+            <ul>
+                <li><a href="#Cervezas">Cervezas</a></li>
+                <li><a href="#Vinos">Vinos</a></li>
+                <li><a href="#Whiskys">Whiskys</a></li>
+                <li><a href="#Gin">Gin</a></li>
+                <li><a href="#Vodkas">Vodkas</a></li>
+                <li><a href="#Spirits">Spirits</a></li>
+            </ul>
+        </div>
+            <section class="tablas">
+                <h3 id="Cervezas" class="leyenda">Cervezas</h3>
+                <table>
+                <tr>
+                    <td> </td>
+                    <th>Articulo</th>
+                    <th>Volumen</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/cervezas/andes roja.JPG" alt="Andes Roja" width="150" height="150"></td>
+                    <td>Andes Origen Roja</td>
+                    <td>6 x 473ml</td>
+                    <td>$559,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/cervezas/budweiser.JPG" alt="Budweiser" width="150" height="150"></td>
+                    <td>Budweiser</td>
+                    <td>6 x 473ml</td>
+                    <td>$449,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/cervezas/goose island.JPG" alt="Goose Island" width="150" height="150"></td>
+                    <td>Goose Island IPA Rubia</td>
+                    <td>6 x 473ml</td>
+                    <td>$749,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/cervezas/patagonia bohemian.JPG" alt="Patagonia Bohemian Pilsener" width="150" height="150"></td>
+                    <td>Patagonia Bohemian Pilsener</td>
+                    <td>6 x 473ml</td>
+                    <td>$634,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/cervezas/stella artois.JPG" alt="Stella Artois" width="150" height="150"></td>
+                    <td>Stella Artois</td>
+                    <td>6 x 473ml</td>
+                    <td>$519,99</td>
+                </tr> 
+                </table>
+                <h3 id="Vinos" class="leyenda">Vinos</h3>
+                <table>
+                <tr>
+                    <td> </td>
+                    <th>Articulo</th>
+                    <th>Volumen</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/vino/alma mora.JPG" alt="Alma Mora" width="100" height="150"></td>
+                    <td>Alma Mora</td>
+                    <td>750ml</td>
+                    <td>$374,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/vino/fond de cave.JPG" alt="Fond de Cave" width="100" height="150"></td>
+                    <td>Fond de Cave</td>
+                    <td>750ml</td>
+                    <td>$569,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/vino/medalla.JPG" alt="Trapiche Medalla" width="90" height="150"></td>
+                    <td>Trapiche Medalla</td>
+                    <td>750ml</td>
+                    <td>$1.249,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/vino/trumpeter.JPG" alt="Ruttini Trumpeter" width="130" height="150"></td>
+                    <td>Ruttini Trumpeter</td>
+                    <td>750ml</td>
+                    <td>$799,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/vino/zuccardi.JPG" alt="Zuccardi" width="120" height="150"></td>
+                    <td>Zuccardi Serie A</td>
+                    <td>750ml</td>
+                    <td>$899,99</td>
+                </tr>
+                </table>
+                <h3 id="Whiskys" class="leyenda">Whiskys</h3>
+                <table>
+                <tr>
+                    <td> </td>
+                    <th>Articulo</th>
+                    <th>Volumen</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/whisky/black label.JPG" alt="JW Black Label" width="100" height="150"></td>
+                    <td>Johnnie Walker Black Label</td>
+                    <td>1L</td>
+                    <td>$4.699,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/whisky/red label.JPG" alt="JW Red Label" width="85" height="150"></IMG></td>
+                    <td>Johnnie Walker Red Label</td>
+                    <td>1L</td>
+                    <td>$2.699,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/whisky/singleton.JPG" alt="Singleton" width="100" height="150"></td>
+                    <td>Singleton</td>
+                    <td>700ml</td>
+                    <td>$4.609,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/whisky/grants.JPG" alt="Grants" width="100" height="150"></td>
+                    <td>Grants's Blended</td>
+                    <td>750ml</td>
+                    <td>$1.854,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/whisky/vat.JPG" alt="VAT 69" width="100" height="150"></td>
+                    <td>VAT 69</td>
+                    <td>700ml</td>
+                    <td>$679,99</td>
+                </tr>
+                </table>
+                <h3 id="Gin" class="leyenda">Gin</h3>
+                <table>
+                <tr>
+                    <td> </td>
+                    <th>Articulo</th>
+                    <th>Volumen</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/gin/beefeater.JPG" alt="Beefeater" width="140" height="150"></td>
+                    <td>Beefeater</td>
+                    <td>750ml</td>
+                    <td>$1.749,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/gin/bombay.JPG" alt="Bombay Sapphire" width="120" height="150"></td>
+                    <td>Bombay Sapphire</td>
+                    <td>750ml</td>
+                    <td>$2.119,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/gin/gordons.JPG" alt="Gordons" width="120" height="150"></td>
+                    <td>Gordon's</td>
+                    <td>700ml</td>
+                    <td>$669,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/gin/tanqueray.JPG" alt="Tanqueray" width="120" height="150"></td>
+                    <td>Tanqueray</td>
+                    <td>750ml</td>
+                    <td>$2.049,99</td>
+                </tr>
+                </table>
+                <h3 id="Vodkas" class="leyenda">Vodkas</h3>
+                <table>
+                <tr>
+                    <td> </td>
+                    <th>Articulo</th>
+                    <th>Volumen</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/vodka/absolut.JPG" alt="Absolut" width="120" height="150"></td>
+                    <td>Absolut</td>
+                    <td>700ml</td>
+                    <td>$1.399,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/vodka/grey goose.JPG" alt="Grey Goose" width="150" height="150"></td>
+                    <td>Grey Goose</td>
+                    <td>750ml</td>
+                    <td>$5.889,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/vodka/skyy.JPG" alt="Skyy" width="150" height="150"></td>
+                    <td>SKYY</td>
+                    <td>750ml</td>
+                    <td>$479,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/vodka/smirnoff.JPG" alt="Smirnoff" width="150" height="150"></td>
+                    <td>Smirnoff Raspberry</td>
+                    <td>700ml</td>
+                    <td>$529,99</td>
+                </tr>
+                </table>
+                </table>
+                <h3 id="Spirits" class="leyenda">Spirits</h3>
+                <table>
+                <tr>
+                    <td> </td>
+                    <th>Articulo</th>
+                    <th>Volumen</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/aperitivos/branca.JPG" alt="Fernet Branca" width="110" height="150"></td>
+                    <td>Fernet Branca</td>
+                    <td>750ml</td>
+                    <td>$574,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/aperitivos/campari.JPG" alt="Campari" width="130" height="150"></td>
+                    <td>Campari</td>
+                    <td>750ml</td>
+                    <td>$509,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/aperitivos/frizze.JPG" alt="Frizze" width="150" height="150"></td>
+                    <td>Frizze Evolution Blue</td>
+                    <td>750ml</td>
+                    <td>$125,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/aperitivos/gancia.JPG" alt="Gancia" width="150" height="150"></td>
+                    <td>Gancia</td>
+                    <td>750ml</td>
+                    <td>$439,99</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/catalogo/aperitivos/havana.JPG" alt="Havana" width="150" height="150"></td>
+                    <td>Ron Havana</td>
+                    <td>750ml</td>
+                    <td>$1.132,99</td>
+                </tr>
+                </table>
+            </section>
+    </body>
+</html>

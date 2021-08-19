@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&family=Teko&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta name="description" content="¿Querés hacer una reserva, una compra online, o te interesa trabajar con nosotros? Contactate con nuestro staff y te responderemos a la brevedad">
+    <meta name="keywords"  content="BAR, LICORERIA, ALCOHOL, COCINA AMERICANA, WEDRINK, CONTACTO, CV, BUSQUEDA LABORAL, EMAIL, TELEFONO">
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+          <div class="row justify-content-between align-items-end" id="barraDeMenu">
+            <img class="logo col-1.5" src="imagenes/LOGO.png" height="60px" width="140px">
+            <div class="subtitulos col-2"><h1>Contacto</h1></div>
+            <nav class="navbar col-4 col-md-5 navbar-expand-md bg-dark navbar-dark">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="quienesSomos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="catalogo.html">Catalogo</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+  </header>
+    <div class="parte-superior">
+      <div class="container-fluid">
+        <div class="row justify-content-around align-items-center">
+          <div class="textoDondeEncontrarnos col-10 col-md-4">
+            <div>
+            <p>Ubicación:</p>
+            <p>Guayra y 3 de Febrero, Ciudad Autonoma de Buenos Aires, Argentina</p>
+            </div>
+            
+            <div>
+            <p>Telefono:</p>
+            <p>+5411-XXXX-XXXX</p>
+            </div>
+            
+            <div>
+            <p>Mails de contacto:</p>
+            <p>wedrink.bar@gmail.com</p>
+            <p>wedrink.licoreria@gmail.com</p>
+            </div>
+          </div>
+          <iframe  width="400" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=guayra%20y%203%20de%20febrero,%20buenos%20aires&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>  
+        </div>
+      </div>
+    </div>
+    <section id="parte-inferior">
+      <form>
+        <label for="name" class="form_text">Nombre:</label>
+        <input type="text" id="name" name="user_name" width="100%">
+        <label for="mail" class="form_text">Correo electrónico:</label>
+        <input type="email" id="mail" name="user_mail"  width="100%">
+        <label for="msg" class="form_text">Mensaje:</label>
+        <textarea id="msg" name="user_message"  width="100%"></textarea>
+        <div>
+          <input type="submit" value="Enviar formulario"/> 
+          <input type="reset" value="Limpiar formulario"/> 
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
