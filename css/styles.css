@@ -53,6 +53,8 @@ header .subtitulos {
 
 .navbar-expand-md {
   justify-content: flex-end !important;
+  z-index: 1000;
+  position: relative;
 }
 
 header nav div ul :hover {
@@ -116,8 +118,14 @@ header nav div ul li a :hover {
   header #barraDeMenu nav div ul li a {
     color: white !important;
   }
+  dl, ol, ul {
+    margin-top: 100%;
+  }
   .subtitulos{
     display: none !important;
+  }
+  .menuQS {
+    max-width: 100% !important;
   }
 }
 
